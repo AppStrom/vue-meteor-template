@@ -2,7 +2,7 @@ import './api/publications'
 
 import Vue from 'vue'
 import ApolloSSR from 'vue-apollo/ssr'
-import { VueSSR } from 'meteor/akryum:vue-ssr'
+import { VueSSR } from 'meteor/mze3e:vue-ssr'
 import CreateApp from './app'
 import App from './ui/App.vue'
 

@@ -1,3 +1,60 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,vuejs,meteor,meteorjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,vue,vuejs,meteor,meteorjs
+
+### Meteor ###
+# gitignore template for the Meteor framework
+# website: https://www.meteor.com/
+#
+# Recommended template: Node.gitignore
+
+# protect api keys in setting json
+settings-production.json
+settings.json
+
+# protect your mup.json settings
+mup.json
+mup.js
+
+### MeteorJS ###
+# default meteor build and local packages
+.meteor/local
+
+# meteor settings file
+
+# meteor build output files
+*.tar.gz
+
+# general swp files from vim
+*.swp
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Vue ###
+# gitignore template for Vue.js projects
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
 node_modules/
-/packages
-.cache
+dist/
+npm-debug.log
+yarn-error.log
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,vuejs,meteor,meteorjs
